@@ -56,7 +56,7 @@ class Exercicio3 {
             Random rand = new Random();
             String nomeArquivo = "bilhete-passagem.txt";
             String diretorio = System.getProperty("user.home");
-            int numeroPoltrona = rand.nextInt(50) + 1; // colocar o 50 segnifica ir de um range de [0-49], por isso o +1 no final;
+            int numeroPoltrona = rand.nextInt(50) + 1; // colocar o 50 significa ir de um range de [0-49], por isso o +1 no final;
             Arquivo arquivo = new Arquivo(nomeArquivo, diretorio);
             String dadosAEscrever = "Nome cliente: " + nome + "\n"
                                     + "Idade: " + idade + "\n"
