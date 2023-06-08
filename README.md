@@ -1,4 +1,4 @@
-# Lista de Exercícios IV
+# Lista de Exercícios IX
 
 | Nome                           | RA         |
 | ------------------------------ | ---------- |
